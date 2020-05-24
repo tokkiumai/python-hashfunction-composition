@@ -83,7 +83,7 @@ while collisions_number <= MAX_COLLISIONS_NUMBER:
   hash1 = hash_string(string1, LOOPS_TO_HASH)
   hash2 = hash_string(string2, LOOPS_TO_HASH)
 
-  if (control_or_store(hash1, string1) or control_or_store(hash2, string2)):
+  if control_or_store(hash1, string1) or control_or_store(hash2, string2):
     collisions_number += 1
 
   if virtual_memory > MAX_RAM:
