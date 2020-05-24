@@ -23,7 +23,7 @@ args = parser.parse_args()
 STRING_LENGTH = int(args.stringL or 12)
 HASH_LENGTH = int(args.hashL or 12)
 MAX_RAM = int(args.maxRAM or 4096)
-MAX_COLLISIONS_NUMBER = int(args.maxCollisionsNumber or 10)
+MAX_COLLISIONS_NUMBER = int(args.maxCollisionsNumber or 1)
 SHOULD_TRACE = args.trace or False 
 LOOPS_TO_HASH = int(args.loops or 5)
 
