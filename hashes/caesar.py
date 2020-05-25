@@ -1,6 +1,6 @@
 import hashlib
 
-from utils import format_and_encode, caesar_cipher
+from hashes.utils import format_and_encode, caesar_cipher
 
 def hash_caesar_cipher(string, loops):
   string_length = len(string)
@@ -12,5 +12,3 @@ def hash_caesar_cipher(string, loops):
     string = hashlib.md5(string).hexdigest()
 
   return string[:string_length]
-
-print(hash_caesar_cipher('kekshpek', 5))

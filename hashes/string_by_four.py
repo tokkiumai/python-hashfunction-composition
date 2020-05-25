@@ -1,6 +1,6 @@
 import hashlib
 
-from utils import format_and_encode, split_every_n
+from hashes.utils import format_and_encode, split_every_n
 
 def hash_string_by_four(string, loops):
   string_length = len(string)

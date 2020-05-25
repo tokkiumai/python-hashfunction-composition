@@ -1,7 +1,7 @@
 import hashlib
 import codecs
 
-from utils import format_and_encode
+from hashes.utils import format_and_encode
 
 def hash_rot_13(string, loops):
   string_length = len(string)
