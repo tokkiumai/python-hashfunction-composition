@@ -2,11 +2,9 @@ import time
 import psutil
 import argparse
 
-from utils.generate_string import generate_string
-from utils.print_info import print_info
-from utils.cls import cls
+from utils import generate_string, print_info, cls
 
-from hashes.string import hash_string
+from hashes import hash_string
 
 start_time = time.time()
 
