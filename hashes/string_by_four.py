@@ -6,7 +6,7 @@ def hash_string_by_four(string, loops):
   string_length = len(string)
 
   for _ in range(1, loops):
-    splitted = split_every_n(string, 3)
+    splitted = split_every_n(string, 4)
 
     new_hash = ''
 
