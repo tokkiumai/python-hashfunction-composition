@@ -1,11 +1,11 @@
 import hashlib
 
-from utils import format_and_encode, split_every_n
+from .utils import format_and_encode, split_every_n
 
 def hash_string_by_four(string, loops):
   string_length = len(string)
 
-  for _ in range(1, loops):
+  for _ in range(loops):
     splitted = split_every_n(string, 4)
 
     new_hash = ''
