@@ -1,6 +1,6 @@
 import hashlib
 
-from .utils import format_and_encode
+from utils import format_and_encode
 
 def hash_string(string, loops):
   string_length = len(string)
